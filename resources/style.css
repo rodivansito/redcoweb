@@ -1,0 +1,133 @@
+
+html {
+  font-size: 16px;
+
+}
+
+h1 {
+font-family: 'Barlow Semi Condensed', sans-serif;
+font-size: 3rem;
+
+}
+ p {
+   font-family: 'Palanquin', sans-serif;
+   font-size: 1rem;
+ }
+
+ h2 {
+font-family: 'Palanquin', sans-serif;
+font-size: 2rem;
+
+ }
+
+ h4 {
+   font-size: 1.3rem;
+ }
+
+ header {
+   margin-bottom: 10rem;
+ }
+ .language {
+  color: gray;
+  list-style: none;
+}
+
+.language a {
+  color: gray;
+}
+
+section {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.banner {
+  margin-top: 5rem;
+}
+ .banner img {
+   border-radius: 30%;
+ }
+
+ .banner h1 {
+   margin-top: 85px;
+   margin-left: 15px;
+ }
+
+.cover img {
+
+  max-width: 400px;
+  max-height: 400px;
+  margin-left: 40%;
+}
+
+.subheading {
+  margin-left: 1rem;
+  padding-left: 1rem;
+}
+
+
+.Ti {
+  width: 20%;
+  border-radius: 50%;
+  background: #FA6805;
+  color: white;
+}
+
+
+
+.card-img-overlay {
+  top: 40%;
+  left: 15%;
+}
+
+.angle a {
+  color: gray;
+}
+main {
+  margin-top: 4rem;
+}
+
+footer {
+
+  background-image: url("./multimedia/FooterImage.svg");
+  height: 20rem;
+  width: auto;
+}
+
+
+}
+
+.btn {
+   background-color: #FA6805;
+   border: black;
+
+
+
+}
+.test {
+
+}
+
+.btn:hover {
+  background-color: white;
+  color: #FA6805;
+}
+
+.method {
+  margin-left: 2rem;
+  margin-top: 3rem;
+}
+
+.caracteristicas {
+  margin-left: 2rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.como {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+footer {
+  background-image: image('../resources/multimedia/Footer image.svg');
+}
