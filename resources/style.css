@@ -44,9 +44,9 @@ section {
 .banner {
   height: 500px;
   width: auto;
-background-image: url('../resources/multimedia/FooterImage.svg');
+
 border: none;
-background-repeat:
+
 
 
 }
@@ -94,6 +94,11 @@ background-repeat:
 
 .Ti {
 
+}
+
+.portada {
+  background-image: url('../resources/multimedia/FooterImage.svg') ;
+  background-size: cover;
 }
 
 
