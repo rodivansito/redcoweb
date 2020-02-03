@@ -24,9 +24,10 @@ font-size: 2rem;
    font-size: 1.3rem;
  }
 
- header {
-   margin-bottom: 10rem;
- }
+header {
+  margin-bottom: 7rem;
+}
+
  .language {
   color: gray;
   list-style: none;
@@ -41,10 +42,20 @@ section {
   margin-bottom: 5rem;
 }
 .banner {
-  margin-top: 5rem;
+  height: 500px;
+  width: auto;
+background-image: url('../resources/multimedia/FooterImage.svg');
+border: none;
+background-repeat:
+
+
 }
  .banner img {
-   border-radius: 30%;
+   border: none;
+ }
+
+ .banner .col-sm-6 {
+   border: none;
  }
 
  .banner h1 {
@@ -64,12 +75,25 @@ section {
   padding-left: 1rem;
 }
 
+.btn {
+  background-color: white;
+  color:  #FA6805;
+  border-color: #FA6805;
+}
+
+.btn:hover {
+  background-color: #FA6805;
+  color: white;
+  border-color: #FA6805;
+}
+
+.banner .btn {
+  margin-top: 2rem;
+
+}
 
 .Ti {
-  width: 20%;
-  border-radius: 50%;
-  background: #FA6805;
-  color: white;
+
 }
 
 
@@ -96,21 +120,12 @@ footer {
 
 }
 
-.btn {
-   background-color: #FA6805;
-   border: black;
 
-
-
-}
 .test {
 
 }
 
-.btn:hover {
-  background-color: white;
-  color: #FA6805;
-}
+
 
 .method {
   margin-left: 2rem;
@@ -130,4 +145,46 @@ footer {
 
 footer {
   background-image: image('../resources/multimedia/Footer image.svg');
+}
+
+.banner {
+  background-image: image('../resources/multimedia/Footer image.svg');
+}
+
+@media (min-width: 576px) {
+
+
+}
+ Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .banner {
+    margin-top: 5rem;
+  }
+
+  header {
+    margin-bottom: 10rem;
+  }
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .banner {
+  margin-top: 5rem;
+}
+
+header {
+  margin-bottom: 10rem;
+}
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .banner {
+    margin-top: 5rem;
+  }
+  header {
+    margin-bottom: 10rem;
+  }
 }

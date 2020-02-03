@@ -113,6 +113,9 @@ h1, h2, h3, h4, h5, h6 {
 /*
  * Footer
  */
+ footer {
+   background-image: image('../resources/multimedia/Footer image.svg');
+ }
 .blog-footer {
   padding: 2.5rem 0;
   color: #999;
